@@ -4,7 +4,6 @@ const app = express();
 const connection= require('./config/db')
 const colors=require('colors')
 const { graphqlHTTP } = require('express-graphql');
-
 const schema = require('./Schema/schema');
 const port = process.env.PORT || 3001;
 
